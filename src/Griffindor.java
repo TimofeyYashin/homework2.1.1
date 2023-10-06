@@ -1,9 +1,7 @@
 public class Griffindor extends Hogwarts {
 
     public Griffindor(String name, int nobility, int honor, int courage, int distance, int power) {
-        super.name = name;
-        super.distance = distance;
-        super.power = power;
+      super(power, distance, name);
         this.nobility = nobility;
         this.honor = honor;
         this.courage = courage;

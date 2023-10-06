@@ -4,6 +4,12 @@ public class Hogwarts {
     protected int distance;
     protected String name;
 
+    public Hogwarts(int power, int distance, String name) {
+        this.power = power;
+        this.distance = distance;
+        this.name = name;
+    }
+
     public int getPower() {
         return power;
     }

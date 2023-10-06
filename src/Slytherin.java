@@ -2,9 +2,7 @@
      private int cunning, determination, ambition, resourcefulness, thirst;
 
      public Slytherin(String name, int cunning, int determination, int ambition, int resourcefulness, int thirst, int distance, int power) {
-         super.name = name;
-         super.distance = distance;
-         super.power = power;
+         super(power, distance, name);
          this.cunning = cunning;
          this.determination = determination;
          this.ambition = ambition;
